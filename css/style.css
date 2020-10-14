@@ -1,0 +1,381 @@
+body,
+html {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+#menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    z-index: 1;
+  }
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#myVideo {
+    position: static;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: sticky;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.navi {
+    color: white;
+    list-style: none;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.background-CV {
+    position: relative;
+    background: no-repeat url(../img/BACK.png);
+    background-size: 100%;
+    width: 100%;
+    height: 750px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+#mwa {
+    height: 400px;
+    width: 420px;
+    margin-left: 140px;
+    margin-top: 25px;
+}
+
+
+h1 {
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-left: 800px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+#age {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 120px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#permit {
+    position: absolute;
+    margin-left: 1040px;
+    margin-top: 120px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#Car-picto {
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: 155px;
+    height: 30px;
+    width: 45px;
+}
+
+#list {
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 200px;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+
+}
+
+#english {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 350px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 30px;
+}
+
+#flag {
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 375px;
+    height: 50px;
+    width: 50px;
+}
+
+#hobbys {
+    position: absolute;
+    text-align: center;
+    margin-left: 875px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 30px;
+}
+
+#paper {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 100px;
+    height: 80px;
+    width: 60px;
+}
+
+#joypad {
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 100px;
+    height: 70px;
+    width: 120px;
+}
+
+#computer {
+    position: absolute;
+    margin-left: 1140px;
+    margin-top: 100px;
+    height: 70px;
+    width: 80px;
+}
+
+#mwa-2 {
+    position: absolute;
+    margin-left: 300px;
+    height: 250px;
+    width: 250px;
+}
+
+#YES {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+  
+}
+
+progress {
+    height: 70px;
+    width: 300px;
+    padding: 60px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.picto {
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+}
+
+.PS {
+    margin-top: 18px;
+}
+
+.AI {
+    margin-top: 13px;
+}
+
+.ID {
+    margin-top: 13px;
+
+}
+
+.AE {
+    margin-top: 13px;
+
+}
+
+.PR {
+    margin-top: 13px;
+
+}
+
+.WP {
+    margin-top: 18px;
+
+}
+
+.HTML {
+    margin-top: 13px;
+}
+
+.CSS {
+    margin-top: 13px;
+    width: 60px;
+    margin-left: 48px;
+}
+
+.ProC {
+    margin-top: 13px;
+}
+
+.RS {
+    margin-top: 13px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+h4{
+    font-size: 50px;
+}
+.exp {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.date {
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#imgzawa {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 0px;
+    height: 700px;
+    width: 950px;
+}
+
+#lamanu {
+    position: absolute;
+    height: 90px;
+    width: 80px;
+    margin-left: 1070px;
+    margin-top: 30px;
+}
+
+#pivaut {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+#lycée {
+    position: absolute;
+    height: 90px;
+    width: 140px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#escalibur{
+    position: absolute;
+    height: 400px;
+    width: 160px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#Zawa3{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 0px;
+    height: 700px;
+    width: 900px;
+}
+#twitch-logo{
+    position: absolute;
+    height: 400px;
+    width: 550px;
+    margin-left:120px;
+    margin-top: 0px;
+}
+#oeil{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 45px;
+}
+#harmonie{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-left: 1000px;
+    margin-top: 45px;
+}
+
+#phone {
+    position: absolute;
+    height: 100px;
+    width: 60px;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+#mail {
+    position: absolute;
+    height: 60px;
+    width: 80px;
+    margin-left: 450px;
+    margin-top: 140px;
+}
+#LK{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-left: 220px;
+    margin-top: 205px;
+}  
+footer{
+    background-image: linear-gradient(to right, #7513b6, #5d2cb6, #4438b3, #2940ae, #0145a6);
+    background-size: 100%;
+    height: 250px;
+    width: 100%;
+}
+.footnav{
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
